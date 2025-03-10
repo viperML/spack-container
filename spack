@@ -22,6 +22,5 @@ podman run -it --rm \
     localhost/spack-cooked \
     bash -c '
 export PATH="$PATH:/run/current-system/sw/bin"
-ln -vsfT $FLAKE/bin/.bash_profile ~/.bash_profile
 exec -l bash
 '

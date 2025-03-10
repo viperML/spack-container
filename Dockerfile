@@ -16,5 +16,6 @@ RUN apt-get update && \
     gnupg \
     git \
     ca-certificates \
+    python3-pylsp \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
